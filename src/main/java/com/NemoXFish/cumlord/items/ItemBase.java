@@ -1,4 +1,4 @@
-package com.NemoXFish.stuff.items;
+package com.NemoXFish.cumlord.items;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
