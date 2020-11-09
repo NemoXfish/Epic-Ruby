@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 @Mod("cumlord")
 public class Cumlord {
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "items";
+    public static final String MOD_ID = "cumlord";
 
     public Cumlord() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
