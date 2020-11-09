@@ -1,0 +1,42 @@
+modLoader="javafml"
+
+loaderVersion="[35,)"
+
+license="All rights reserved"
+
+issueTrackerURL="https://github.com/NemoXfish"
+
+[[mods]]
+
+modId="stuff"
+
+version="1.16.4-1.0.0"
+
+displayName="Stuff"
+
+updateJSONURL="http://myurl.me/"
+
+displayURL="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+logoFile="sweetmilk.jpg"
+
+credits="Thanks to TechnoVision for helping me set this up!"
+
+authors="NemoXFish"
+
+description='''
+Just practicing on how to make a mod, that's it.
+'''
+
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
