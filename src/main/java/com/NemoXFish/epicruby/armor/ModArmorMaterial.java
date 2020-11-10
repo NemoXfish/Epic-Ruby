@@ -14,8 +14,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
 
-    RUBY(EpicRuby.MOD_ID + ":ruby", 25, new int[] { 2, 5, 6, 2 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); }, 1);
-
+    RUBY(EpicRuby.MOD_ID + ":ruby", 25, new int[] { 4, 6, 6, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); }, 1);
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;
     private final int maxDamageFactor;
@@ -39,42 +38,42 @@ public enum ModArmorMaterial implements IArmorMaterial {
 
     @Override
     public int getDurability(EquipmentSlotType slotIn) {
-        return MAX_DAMAGE_ARRAY[slotIn.getIndex()] * this.maxDamageFactor;
+        return MAX_DAMAGE_ARRAY[slotIn.getIndex()] * maxDamageFactor;
     }
 
     @Override
     public int getDamageReductionAmount(EquipmentSlotType slotIn) {
-        return this.damageReductionAmountArray[slotIn.getIndex()];
+        return damageReductionAmountArray[slotIn.getIndex()];
     }
 
     @Override
     public int getEnchantability() {
-        return this.enchantability;
+        return enchantability;
     }
 
     @Override
     public SoundEvent getSoundEvent() {
-        return this.soundEvent;
+        return soundEvent;
     }
 
     @Override
     public Ingredient getRepairMaterial() {
-        return this.repairMaterial.get();
+        return repairMaterial.get();
     }
 
     @OnlyIn(Dist.CLIENT)
     @Override
     public String getName() {
-        return this.name;
+        return name;
     }
 
     @Override
     public float getToughness() {
-        return this.toughness;
+        return toughness;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return this.knockbackResistance;
+        return knockbackResistance;
     }
 }
