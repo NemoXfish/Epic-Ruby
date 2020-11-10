@@ -7,7 +7,7 @@ import net.minecraft.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
-    RUBY(3, 800, 7.0f, 3.0f, 12, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); });
+    RUBY(4, 2031, 9.0f, 4.0f, 15, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); });
 
     private final int harvestLevel;
     private final int maxUses;
