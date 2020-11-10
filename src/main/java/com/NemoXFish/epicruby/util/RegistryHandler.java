@@ -6,10 +6,12 @@ import com.NemoXFish.epicruby.blocks.BlockItemBase;
 import com.NemoXFish.epicruby.blocks.RubyBlock;
 import com.NemoXFish.epicruby.blocks.RubyOre;
 import com.NemoXFish.epicruby.items.ItemBase;
+import com.NemoXFish.epicruby.items.PoisonApple;
 import com.NemoXFish.epicruby.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.util.FoodStats;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,6 +28,7 @@ public class RegistryHandler {
 
     // Items
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<PoisonApple> POISON_APPLE = ITEMS.register("poison_apple", PoisonApple::new);
 
     // Tools
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new SwordItem(ModItemTier.RUBY, 4, -2.4f, new Item.Properties().group(EpicRuby.TAB)));
