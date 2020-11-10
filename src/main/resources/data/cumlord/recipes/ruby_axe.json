@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "rr",
+    "rs",
+    "s"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "minecraft:stick"
+    },
+    "r":
+    {
+      "item": "cumlord:ruby"
+    }
+  },
+  "result":
+  {
+    "item": "cumlord:ruby_axe",
+    "count": 1
+  }
+}

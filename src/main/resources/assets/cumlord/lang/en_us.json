@@ -1,5 +1,11 @@
 {
   "item.cumlord.ruby": "Ruby",
   "block.cumlord.ruby_block": "Block of Ruby",
+  "block.cumlord.ruby_ore": "Ruby Ore",
+  "item.cumlord.ruby_sword": "Ruby Sword",
+  "item.cumlord.ruby_pickaxe": "Ruby Pickaxe",
+  "item.cumlord.ruby_axe": "Ruby Axe",
+  "item.cumlord.ruby_shovel": "Ruby Shovel",
+  "item.cumlord.ruby_hoe": "Ruby Hoe",
   "itemGroup.cumlordtab": "Cumlord"
 }
