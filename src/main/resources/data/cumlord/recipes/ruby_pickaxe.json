@@ -14,12 +14,12 @@
     },
     "r":
     {
-      "item": "cumlord:ruby"
+      "item": "epicruby:ruby"
     }
   },
   "result":
   {
-    "item": "cumlord:ruby_pickaxe",
+    "item": "epicruby:ruby_pickaxe",
     "count": 1
   }
 }

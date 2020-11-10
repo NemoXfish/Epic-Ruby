@@ -10,12 +10,12 @@
   {
     "x":
     {
-      "item": "cumlord:ruby"
+      "item": "epicruby:ruby"
     }
   },
   "result":
   {
-    "item": "cumlord:ruby_block",
+    "item": "epicruby:ruby_block",
     "count": 1
   }
 }

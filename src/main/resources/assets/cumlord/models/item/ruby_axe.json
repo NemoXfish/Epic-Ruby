@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "cumlord:items/ruby_axe"
+    "layer0": "epicruby:items/ruby_axe"
   }
 }

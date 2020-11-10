@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "cumlord:blocks/ruby_block"
+    "all": "epicruby:blocks/ruby_block"
   }
 }

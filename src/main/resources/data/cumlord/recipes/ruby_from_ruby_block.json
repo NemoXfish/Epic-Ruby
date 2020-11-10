@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "cumlord:ruby_block"
+      "item": "epicruby:ruby_block"
     }
   ],
   "result": {
-    "item": "cumlord:ruby",
+    "item": "epicruby:ruby",
     "count": 9
   }
 }

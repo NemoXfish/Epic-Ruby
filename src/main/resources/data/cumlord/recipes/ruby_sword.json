@@ -14,12 +14,12 @@
     },
     "r":
     {
-      "item": "cumlord:ruby"
+      "item": "epicruby:ruby"
     }
   },
   "result":
   {
-    "item": "cumlord:ruby_sword",
+    "item": "epicruby:ruby_sword",
     "count": 1
   }
 }

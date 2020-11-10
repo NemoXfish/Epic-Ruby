@@ -14,12 +14,12 @@
     },
     "r":
     {
-      "item": "cumlord:ruby"
+      "item": "epicruby:ruby"
     }
   },
   "result":
   {
-    "item": "cumlord:ruby_hoe",
+    "item": "epicruby:ruby_hoe",
     "count": 1
   }
 }
