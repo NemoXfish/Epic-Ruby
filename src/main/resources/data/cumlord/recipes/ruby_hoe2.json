@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "rrr",
+    " rr ",
     " s ",
     " s "
   ],
@@ -19,7 +19,7 @@
   },
   "result":
   {
-    "item": "cumlord:ruby_pickaxe",
+    "item": "cumlord:ruby_hoe",
     "count": 1
   }
 }
