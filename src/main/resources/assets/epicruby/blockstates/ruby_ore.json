@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "epicruby:block/ruby_ore" }
+  }
+}
