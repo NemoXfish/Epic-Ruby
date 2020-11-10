@@ -7,5 +7,9 @@
   "item.epicruby.ruby_axe": "Ruby Axe",
   "item.epicruby.ruby_shovel": "Ruby Shovel",
   "item.epicruby.ruby_hoe": "Ruby Hoe",
+  "item.epicruby.ruby_helmet": "Ruby Helmet",
+  "item.epicruby.ruby_chestplate": "Ruby Chestplate",
+  "item.epicruby.ruby_leggings": "Ruby Leggings",
+  "item.epicruby.ruby_boots": "Ruby Boots",
   "itemGroup.epicrubytab": "Epic Ruby"
 }
