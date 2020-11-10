@@ -31,7 +31,7 @@ public class EpicRuby {
     private void doClientStuff(final FMLClientSetupEvent event) {
     }
 
-    public static final ItemGroup TAB = new ItemGroup("cumlordtab") {
+    public static final ItemGroup TAB = new ItemGroup("epicrubytab") {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(RegistryHandler.RUBY.get());
