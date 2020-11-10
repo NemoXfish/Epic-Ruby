@@ -1,6 +1,6 @@
-package com.NemoXFish.cumlord;
+package com.NemoXFish.epicruby;
 
-import com.NemoXFish.cumlord.util.RegistryHandler;
+import com.NemoXFish.epicruby.util.RegistryHandler;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -11,12 +11,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("cumlord")
-public class Cumlord {
+@Mod("epicruby")
+public class EpicRuby {
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "cumlord";
+    public static final String MOD_ID = "epicruby";
 
-    public Cumlord() {
+    public EpicRuby() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 

@@ -1,6 +1,6 @@
-package com.NemoXFish.cumlord.tools;
+package com.NemoXFish.epicruby.tools;
 
-import com.NemoXFish.cumlord.util.RegistryHandler;
+import com.NemoXFish.epicruby.util.RegistryHandler;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 

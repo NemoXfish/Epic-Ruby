@@ -1,4 +1,4 @@
-package com.NemoXFish.cumlord.blocks;
+package com.NemoXFish.epicruby.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
