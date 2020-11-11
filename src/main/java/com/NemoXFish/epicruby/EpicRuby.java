@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 
 @Mod("epicruby")
 public class EpicRuby {
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "epicruby";
 
     public EpicRuby() {
