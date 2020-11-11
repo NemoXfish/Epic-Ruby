@@ -9,7 +9,6 @@ import net.minecraft.potion.Effects;
 public class PoisonApple extends Item {
     public PoisonApple() {
         super(new Properties()
-                .group(EpicRuby.TAB)
                 .food(new Food.Builder()
                     .hunger(4)
                     .saturation(1.2f)
