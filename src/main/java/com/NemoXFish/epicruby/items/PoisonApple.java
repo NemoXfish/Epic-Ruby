@@ -1,11 +1,11 @@
 package com.NemoXFish.epicruby.items;
 
-import com.NemoXFish.epicruby.EpicRuby;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
+// Properties for poison apple
 public class PoisonApple extends Item {
     public PoisonApple() {
         super(new Properties()

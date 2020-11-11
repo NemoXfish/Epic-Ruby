@@ -1,7 +1,7 @@
-package com.NemoXFish.epicruby.armor;
+package com.NemoXFish.epicruby.util.enums;
 
 import com.NemoXFish.epicruby.EpicRuby;
-import com.NemoXFish.epicruby.util.RegistryHandler;
+import com.NemoXFish.epicruby.init.EpicRubyItems;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -14,7 +14,8 @@ import java.util.function.Supplier;
 
 public enum ArmorMaterial implements IArmorMaterial {
 
-    RUBY(EpicRuby.MOD_ID + ":ruby", 25, new int[] { 4, 6, 6, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); }, 1.0f);
+    // Sets things for ruby armor
+    RUBY(EpicRuby.MOD_ID + ":ruby", 25, new int[] { 4, 6, 6, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, () -> { return Ingredient.fromItems(EpicRubyItems.RUBY.get()); }, 1.0f);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;

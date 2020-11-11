@@ -1,6 +1,7 @@
 package com.NemoXFish.epicruby;
 
-import com.NemoXFish.epicruby.util.RegistryHandler;
+import com.NemoXFish.epicruby.init.EpicRubyBlocks;
+import com.NemoXFish.epicruby.init.EpicRubyItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -20,7 +21,8 @@ public class EpicRuby {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        RegistryHandler.init();
+        EpicRubyBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        EpicRubyItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -31,10 +33,11 @@ public class EpicRuby {
     private void doClientStuff(final FMLClientSetupEvent event) {
     }
 
+    // Creative Tab
     public static final ItemGroup TAB = new ItemGroup("epicRubyTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.RUBY.get());
+            return new ItemStack(EpicRubyItems.RUBY.get());
         }
     };
 }

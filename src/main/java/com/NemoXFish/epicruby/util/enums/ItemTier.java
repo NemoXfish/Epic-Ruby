@@ -1,13 +1,14 @@
-package com.NemoXFish.epicruby.tools;
+package com.NemoXFish.epicruby.util.enums;
 
-import com.NemoXFish.epicruby.util.RegistryHandler;
+import com.NemoXFish.epicruby.init.EpicRubyItems;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
+// Sets things for tools
 public enum ItemTier implements IItemTier {
-    RUBY(4, 2031, 9.0f, 4.0f, 15, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); });
+    RUBY(4, 2031, 9.0f, 4.0f, 15, () -> { return Ingredient.fromItems(EpicRubyItems.RUBY.get()); });
 
     private final int harvestLevel;
     private final int maxUses;

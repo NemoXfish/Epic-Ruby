@@ -5,6 +5,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
+// Properties for ruby block
 public class RubyBlock extends Block {
     public RubyBlock() {
         super(Block.Properties.create(Material.IRON)
