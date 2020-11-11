@@ -12,7 +12,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 import java.util.function.Supplier;
 
-public enum ModArmorMaterial implements IArmorMaterial {
+public enum ArmorMaterial implements IArmorMaterial {
 
     RUBY(EpicRuby.MOD_ID + ":ruby", 25, new int[] { 4, 6, 6, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get()); }, 1);
 
@@ -26,7 +26,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
     private final Supplier<Ingredient> repairMaterial;
     private final float knockbackResistance;
 
-    ModArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, float toughness, Supplier<Ingredient> repairMaterial, float knockbackResistance) {
+    ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, float toughness, Supplier<Ingredient> repairMaterial, float knockbackResistance) {
         this.name = name;
         this.maxDamageFactor = maxDamageFactor;
         this.damageReductionAmountArray = damageReductionAmountArray;
