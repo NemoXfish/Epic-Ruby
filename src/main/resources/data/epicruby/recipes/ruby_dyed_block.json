@@ -2,11 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald_ore",
+      "item": "minecraft:emerald_ore"
+    },
+    {
       "item": "minecraft:red_dye"
     }
   ],
-  "result": {
+  "result":
+  {
     "item": "epicruby:ruby_ore",
     "count": 1
   }
