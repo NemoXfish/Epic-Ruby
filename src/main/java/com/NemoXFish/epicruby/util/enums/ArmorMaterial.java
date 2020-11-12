@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public enum ArmorMaterial implements IArmorMaterial {
 
     // Sets things for ruby armor
-    RUBY(EpicRuby.MOD_ID + ":ruby", 25, new int[] { 4, 6, 6, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, () -> { return Ingredient.fromItems(EpicRubyItems.RUBY.get()); }, 1.0f);
+    RUBY(EpicRuby.MOD_ID + ":ruby", 25, new int[] { 4, 6, 6, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, () -> { return Ingredient.fromItems(EpicRubyItems.RUBY.get()); }, 0.1f);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;
