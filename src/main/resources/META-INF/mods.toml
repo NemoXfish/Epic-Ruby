@@ -4,19 +4,19 @@ loaderVersion="[35,)"
 
 license="All rights reserved"
 
-issueTrackerURL="https://github.com/NemoXfish"
+issueTrackerURL="https://github.com/NemoXfish/Epic-Ruby/issues"
 
 [[mods]]
 
 modId="epicruby"
 
-version="1.16.4-1.0.0"
+version="1.16.4-1.0.3"
 
 displayName="Epic Ruby"
 
 updateJSONURL="http://myurl.me/"
 
-displayURL="https://github.com/NemoXfish/Practice"
+displayURL="https://github.com/NemoXfish/Epic-Ruby"
 
 logoFile="sweetmilk.png"
 
