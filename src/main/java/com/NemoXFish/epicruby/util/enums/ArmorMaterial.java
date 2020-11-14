@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public enum ArmorMaterial implements IArmorMaterial {
 
     // Sets things for ruby armor
-    RUBY(EpicRuby.MOD_ID + ":ruby", 25, new int[] { 4, 6, 6, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, () -> { return Ingredient.fromItems(EpicRubyItems.RUBY.get()); }, 0.1f);
+    RUBY(EpicRuby.MOD_ID + ":ruby", 37, new int[] { 3, 6, 8, 3 }, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3, () -> { return Ingredient.fromItems(EpicRubyItems.RUBY.get()); }, 0.1f);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;
@@ -23,11 +23,11 @@ public enum ArmorMaterial implements IArmorMaterial {
     private final int[] damageReductionAmountArray;
     private final int enchantability;
     private final SoundEvent soundEvent;
-    private final float toughness;
+    private final int toughness;
     private final Supplier<Ingredient> repairMaterial;
     private final float knockbackResistance;
 
-    ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, float toughness, Supplier<Ingredient> repairMaterial, float knockbackResistance) {
+    ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, int toughness, Supplier<Ingredient> repairMaterial, float knockbackResistance) {
         this.name = name;
         this.maxDamageFactor = maxDamageFactor;
         this.damageReductionAmountArray = damageReductionAmountArray;
