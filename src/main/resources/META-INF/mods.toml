@@ -16,7 +16,7 @@ displayName="Epic Ruby"
 
 updateJSONURL="http://myurl.me/"
 
-displayURL="https://github.com/NemoXfish/Epic-Ruby"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/epic-ruby"
 
 logoFile="sweetmilk.png"
 
@@ -28,13 +28,13 @@ description='''
 Just practicing on how to make a mod, that's it.
 '''
 
-[[dependencies.examplemod]]
+[[dependencies.epicruby]]
     modId="forge"
     mandatory=true
     versionRange="[35,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.examplemod]]
+[[dependencies.epicruby]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.4,1.17)"
