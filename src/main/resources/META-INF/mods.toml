@@ -18,14 +18,14 @@ updateJSONURL="http://myurl.me/"
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/epic-ruby"
 
-logoFile="sweetmilk.png"
+logoFile="ruby2.png"
 
 credits="Thanks to TechnoVision for helping me set this up!"
 
 authors="NemoXFish"
 
 description='''
-Just practicing on how to make a mod, that's it.
+This mod adds rubies, ruby tools, and ruby armor to Minecraft.
 '''
 
 [[dependencies.epicruby]]
