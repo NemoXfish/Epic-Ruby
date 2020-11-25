@@ -10,7 +10,7 @@ issueTrackerURL="https://github.com/NemoXfish/Epic-Ruby/issues"
 
 modId="epicruby"
 
-version="1.16.4_1.0.3"
+version="1.16.4_1.0.4"
 
 displayName="Epic Ruby"
 
@@ -18,7 +18,7 @@ updateJSONURL="http://myurl.me/"
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/epic-ruby"
 
-logoFile="ruby2.png"
+logoFile="icon.png"
 
 credits="Thanks to TechnoVision for helping me set this up!"
 
