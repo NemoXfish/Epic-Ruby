@@ -19,9 +19,9 @@ import net.minecraftforge.fml.common.Mod;
 
 // This poisons passive animals if it is hit with a poison apple
 @Mod.EventBusSubscriber(modid = EpicRuby.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
-public class ClientEvents {
+public class PoisonEvent {
     @SubscribeEvent
-    public static void onDamageAnimal(AttackEntityEvent event) {
+    public static void onPoisonAnimal(AttackEntityEvent event) {
         if (event.getEntityLiving().getHeldItemMainhand().getItem() == EpicRubyItems.POISON_APPLE.get()) {
             if (event.getTarget().isAlive()) {
                 LivingEntity target = (LivingEntity) event.getTarget();
